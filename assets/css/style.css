@@ -11,7 +11,7 @@
     --first-color: hsl(var(--hue-color), 100%, 48%);
     --first-color-second: hsl(var(--hue-color), 100%, 48%);
     --first-color-alt: hsl(var(--hue-color), 91%, 62%);
-    --first-color-lighter: hsl(var(--hue-color), 100%, 38%);
+    --first-color-lighter: hsl(var(--hue-color), 91%, 62%);
     --title-color: hsl(var(--hue-color), 54%, 30%);
     --text-color: hsl(var(--hue-color), 8%, 15%);
     --text-color-light: hsl(var(--hue-color), 8%, 65%);
@@ -340,5 +340,152 @@ img{
     align-items: center;
 }
  /* ---------------- ABOUT ------------------ */
+.about_img{
+    width: 200px;
+    border-radius: .5rem;
+    justify-self: center;
+    align-self: center;
+}
 
+.about_description{
+    text-align: center;
+    margin-bottom: var(--mb-2-5);
+}
+
+.about_info{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: var(--mb-2-5);
+}
+
+.about_info-title{
+   font-size: var(--h2-font-size);
+   font-weight: var(--font-semi-bold);
+   color: var(--title-color); 
+}
+
+.about_info-name{
+    font-size: var(--small-font-size);
+}
+
+.about_info-title,
+.about_info-name{
+    display: block;
+    text-align: center;
+}
+
+.about_buttons{
+    display: flex;
+    justify-content: center;
+}
  /* -------------------- SKILLS ---------------- */
+.skills_container{
+   row-gap: 0; 
+}
+
+.skills_header{
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--mb-2-5);
+    cursor: pointer;
+}
+
+.skills_icon,
+.skills_arrow{
+    font-size: 2rem;
+    color: var(--first-color);
+}
+
+.skills_icon{
+    margin-right: var(--mb-0-75);
+}
+
+.skills_title{
+    font-size: var(--h3-font-size);
+}
+
+.skills_subtitle{
+    font-size: var(--small-font-size);
+    color: var(--text-color-light);
+}
+
+.skills_arrow{
+    margin-left: auto;
+    transition: .4s;
+}
+
+.skills_list{
+    row-gap: 1.5rem;
+    padding-left: 2.7rem;
+}
+
+.skills_titles{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--mb-0-5);
+}
+
+.skills_name{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+
+.skills_bar,
+.skills_percentage{
+    height: 5px;
+    border-radius: .25rem;
+}
+
+.skills_bar{
+    background-color: var(--first-color-lighter);
+}
+
+.skills_percentage{
+    display: block;
+    background-color: var(--first-color);
+}
+
+.skills_html{
+    width: 90%;
+}
+.skills_css{
+    width: 80%;
+}
+.skills_js{
+    width: 60%;
+}
+.skills_react{
+    width: 5%;
+}
+
+.skills_php{
+    width: 20%;
+}
+
+.skills_canva{
+    width: 50%;
+}
+.skills_figma{
+    width: 20%;
+}
+
+.skills_close .skills_list{
+    height: 0;
+    overflow: hidden;
+}
+
+.skills_open .skills_list{
+    height: max-content;
+    margin-bottom: var(--mb-2-5);
+}
+
+.skills_open .skills_arrow{
+    transform: rotate(-180deg);
+}
+ /* -------------------QUALIFICATION------------------ */
+
+ /* ----------------SERVICES---------------------- */
+
+ /* Ativar Modal(Active Modal) */
+
+ /* ----------------PORTFOLIO------------------ */
