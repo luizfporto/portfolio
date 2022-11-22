@@ -67,6 +67,7 @@ const tabs = document.querySelectorAll('[data-target'),
             tab.classList.add('qualification_active')
         })
       })
+
 // ------------------ SERVICES MODAL -------------
 const modalViews = document.querySelectorAll('.services_modal'),
       modalBtns = document.querySelectorAll('.services_button'),
@@ -89,7 +90,21 @@ modalCloses.forEach((modalClose) => {
         })
     })
 })
+
 // --------------------- PORTFOLIO SWIPER ----------------
+let swiper = new Swiper('.portfolio_container', {
+    cssMode: true,
+    loop: true,
+
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+});
 
 // --------------------- TESTIMONIAL -------------------
 
