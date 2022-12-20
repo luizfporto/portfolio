@@ -335,6 +335,15 @@ img{
    transition: .3s; 
 }
 
+.button--white{
+    background-color: #FFF;
+    color: var(--first-color);
+}
+
+.button--white:hover{
+    background-color: #FFF;
+}
+
 .button--flex{
     display: inline-flex;
     align-items: center;
@@ -727,10 +736,73 @@ img{
 }
 
   /* ---------------PROJECT IN MIND------------- */
+.project{
+    text-align: center;
+}
 
+.project_bg{
+    background-color: var(--first-color-alt);
+    padding-top: 3rem;
+}
+
+.project_title{
+    font-size: var(--h2-font-size);
+    margin-bottom: var(--mb-0-75);
+}
+
+.project_description{
+    margin-bottom: var(--mb-1-5);
+}
+
+.project_title,
+.project_description{
+    color: #FFF;
+}
+
+.project_img{
+    width: 232px;
+    justify-self: center;
+}
 
   /* ------------------ TESTIMONIAL------------- */
+.testimonial_data,
+.testimonial_header{
+    display: flex;
+}
 
+.testimonial_data{
+    justify-content: space-between;
+    margin-bottom: var(--mb-1);
+}
+
+.testimonial_img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: var(--mb-0-75);
+}
+
+.testimonial_name{
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+}
+
+.testimonial_client{
+    font-size: var(--small-font-size);
+    color: var(--text-color-light);
+}
+
+.testimonial_description{
+    margin-bottom: var(--mb-2-5);
+}
+
+.testimonial_icon-star{
+    color: var(--first-color);
+}
+
+.swiper-container .swiper-pagination-testimonial{
+    bottom: 0;
+}
 
   /* ---------------- CONTACT ME---------------- */
 
