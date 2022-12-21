@@ -26,7 +26,7 @@
             <div class="nav_menu" id="nav-menu">
                 <ul class="nav_list grid">
                     <li class="nav_item">
-                        <a href="#home" class="nav_link">
+                        <a href="#home" class="nav_link active-link">
                             <i class="uil uil-estate nav_icon"></i> Home
                         </a>
                     </li>
@@ -60,6 +60,9 @@
             </div>
 
             <div class="nav_btns">
+                <!-- Theme change button -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
                 <div class="nav_toggle" id="nav-toggle">
                     <i class="uil uil-apps"></i>
                 </div>
@@ -137,7 +140,7 @@
                 <img src="assets/img/sobre_mim.png" alt="" class="about_img">
 
                 <div class="about_data">
-                    <p class="about_description">Sou o Luiz Fernando Porto, tenho 39 anos. Atualmente estudo Análise e
+                    <p class="about_description">Sou o Luiz Fernando Porto, tenho 40 anos. Formado em  Análise e
                         Desenvolvimento de Sistema, possuo experiência na área de suporte técnico, a qual anteriormente
                         desenvolvia por Hobbie e com a pandemia se tornou minha profissão. Venho buscando me
                         especializar na área.
@@ -401,7 +404,7 @@
         <!-- -------------------- SERVICES ---------------------  -->
         <section class="services section" id="services">
             <h2 class="section_title">Serviços(Services)</h2>
-            <span class="section_subtilte">O que eu ofereço</span>
+            <span class="section_subtitle">O que eu ofereço</span>
 
             <div class="services_container container grid">
                 <!-- -------------------- SERVICES 1---------------------  -->
@@ -648,13 +651,116 @@
         </section>
 
         <!-- ------------------- CONTACT ME -------------------------- -->
+        <section class="contact section" id="contact">
+            <h2 class="section_title">Contate-me</h2>
+            <span class="section_subtitle">Entrar em contato</span>
+
+            <div class="contact_container container grid">
+                <div>
+                    <div class="contact_information">
+                        <i class="uil uil-phone contact_icon"></i>
+
+                        <div>
+                            <h3 class="contact_title">Ligue para mim</h3>
+                            <span class="contact_subtitle">+55 11 94728-8313</span>
+                        </div>
+                    </div>
+
+                    <div class="contact_information">
+                        <i class="uil uil-envelope contact_icon"></i>
+
+                        <div>
+                            <h3 class="contact_title">Email</h3>
+                            <span class="contact_subtitle">luipilam@hotmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact_information">
+                        <i class="uil uil-map-marker contact_icon"></i>
+
+                        <div>
+                            <h3 class="contact_title">Localização</h3>
+                            <span class="contact_subtitle">Brasil - São Paulo</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact_form grid">
+                    <div class="contact_inputs grid">
+                        <div class="contact_content">
+                            <label for="" class="contact_label">Nome</label>
+                            <input type="text" class="contact_input">
+                        </div>
+
+                        <div class="contact_content">
+                            <label for="" class="contact_label">Email</label>
+                            <input type="email" class="contact_input">
+                        </div>
+                    </div>
+
+                    <div class="contact_content">
+                        <label for="" class="contact_label">Projeto</label>
+                        <input type="text" class="contact_input">
+                    </div>
+
+                    <div class="contact_content">
+                        <label for="" class="contact_label">Mensagem</label>
+                        <textarea name="" id="" cols="30" rows="7" class="conatct_label"></textarea>
+                    </div>
+
+                    <div>
+                        <a href="#" class="button button--flex">
+                            Enviar Mensagem
+                            <i class="uil uil-message button_icon"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </section>
     </main>
 
     <!-- ---------------------------- FOOTER ----------------------- -->
+    <footer class="footer">
+        <div class="footer_bg">
+            <div class="footer_container container grid">
+                <div> 
+                    <h1 class="footer_title">Luiz</h1>
+                    <span class="footer_subtitle">Desenvolvedor Front-end</span>
+                </div>
 
+                <ul class="footer_links">
+                    <li>
+                        <a href="#services" class="footer_link">Serviços</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer_link">Portfólio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer_link">Contato</a>
+                    </li>
+                </ul>
+
+                <div class="footer_socials">
+                    <a href="https://www.instagram.com/luiz_fernando_porto/" target="_blank" class="footer_social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/luiz-fernando-porto-146b582b/" target="_blank" class="footer_social">
+                        <i class="uil uil-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/luizfporto" target="_blank" class="footer_social">
+                        <i class="uil uil-github"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer_copy">&#169; LuizPorto. Todos os direitos reservados</p>
+        </div>
+    </footer>
 
     <!-- ----------------- SCROLL TOP ----------------------- -->
-
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup_icon"></i>
+    </a>
     <!-- ------------------------- SWIPER JS --------------------   -->
     <script src="assets/js/swiper-bundle.min.js"></script>
 
