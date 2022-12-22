@@ -1144,7 +1144,7 @@ img{
         grid-template-columns: .5fr;
     }
     .services_container{
-        grid-template-columns: repeat(3, 218px);
+        grid-template-columns: repeat(2, 218px);
         justify-content: center;
     }
     .services_icon{
@@ -1210,7 +1210,8 @@ img{
         transform: translateX(-6rem);
     }
     .services_container{
-        grid-template-columns: repeat(3, 238px);
+        grid-template-columns: repeat(2, 238px);
+       
     }
     .portfolio_content{
         column-gap: 5rem;
