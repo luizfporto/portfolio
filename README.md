@@ -1,4 +1,4 @@
-# `Portfolio`
+# `Portfólio`
 Este é o meu portfólio pessoal, criado para mostrar alguns dos meus projetos e habilidades.
 
 ## `Tecnologias usadas`
