@@ -685,36 +685,38 @@
                     </div>
                 </div>
 
-                <form action="" class="contact_form grid">
+                <!-- <form action="" class="contact_form grid"> -->
+                <form action="https://formsubmit.co/luipilam@hotmail.com"    method="POST" target="_blank">
                     <div class="contact_inputs grid">
                         <div class="contact_content">
                             <label for="" class="contact_label">Nome</label>
-                            <input type="text" class="contact_input">
+                            <input type="text" name="name" class="contact_input" required>
                         </div>
 
                         <div class="contact_content">
                             <label for="" class="contact_label">Email</label>
-                            <input type="email" class="contact_input">
+                            <input type="email" name="email" class="contact_input" required>
                         </div>
                     </div>
 
                     <div class="contact_content">
                         <label for="" class="contact_label">Projeto</label>
-                        <input type="text" class="contact_input">
+                        <input type="text" name="project" class="contact_input" required>
                     </div>
 
                     <div class="contact_content">
                         <label for="" class="contact_label">Mensagem</label>
-                        <textarea name="" id="" cols="30" rows="7" class="conatct_label"></textarea>
+                        <textarea name="mesage" id="" cols="30" rows="7" class="conatct_label" required></textarea>
                     </div>
 
                     <div>
-                        <a href="#" class="button button--flex">
-                            Enviar Mensagem
+                        <!-- <a href="#" class="button button--flex"> -->
+                            <button type="submit" class="button button--flex">Enviar Mensagem</button>
                             <i class="uil uil-message button_icon"></i>
                         </a>
                     </div>
                 </form>
+                <!-- </form> -->
             </div>
         </section>
     </main>

@@ -135,6 +135,10 @@ img{
     height: auto;
 }
 
+button{
+    border: none;
+}
+
 
 /* --------- Reusable css classes ---------- */
 .section{
