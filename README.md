@@ -1,11 +1,12 @@
-#Portfolio
+##Portfolio
 Este é o meu portfólio pessoal, criado para mostrar alguns dos meus projetos e habilidades.
 
-##Tecnologias usadas
+####Tecnologias usadas
 HTML: utilizado para estruturar o conteúdo da página
 CSS: utilizado para estilizar o layout e a aparência da página
 JavaScript: utilizado para adicionar interatividade e funcionalidade à página.
 
+##
 ##Características
 Layout responsivo: oportunidade para visualizar o portfólio em dispositivos diferentes.
 Design moderno e clean: para melhorar a usabilidade e a aparência geral do site.
